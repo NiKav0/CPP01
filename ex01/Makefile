@@ -1,6 +1,6 @@
-Name =  BraiiiiiiinnnzzzZ
+Name =  zombieHorde
 CXX = c++ -Wall -Wextra -Werror -std=c++98
-SRC = Zombie.cpp newZombie.cpp randomChump.cpp main.cpp
+SRC = Zombie.cpp zombieHorde.cpp main.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(Name)

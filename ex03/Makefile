@@ -1,6 +1,6 @@
-Name =  BraiiiiiiinnnzzzZ
+Name =  Violence
 CXX = c++ -Wall -Wextra -Werror -std=c++98
-SRC = Zombie.cpp newZombie.cpp randomChump.cpp main.cpp
+SRC = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(Name)

@@ -1,8 +1,13 @@
 #include "Zombie.hpp"
 
 int main(void) {
-	Zombie* zombie = newZombie("Zombie");
-	zombie->announce();
-	delete zombie;
+//	===========Heap Zombie===========
+	Zombie *new_one = newZombie("HZombie");
+	new_one->announce();
+	delete new_one;
+
+//	===========Stack Zombie===========
+	Zombie zm;
+	zm.announce();
 	return 0;
 }
